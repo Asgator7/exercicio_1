@@ -17,7 +17,6 @@ namespace Exercicio_01.Controllers {
 
         public IActionResult Index() {
             return View();
-
         }
 
         public IActionResult Privacy() {
