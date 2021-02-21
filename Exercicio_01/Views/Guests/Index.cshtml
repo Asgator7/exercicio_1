@@ -21,7 +21,6 @@
                 <th>
                     Read
                 </th>
-                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -29,10 +28,22 @@
                 <td>
                     @Html.ActionLink("Register your guest", "Create")
                 </td>
-                <td>
-                    @Html.ActionLink("See all guests", "List")
-                </td>
             </tr>
+            @foreach (var item in Model) {<!-- inicia-se com arroba pois trata-se de c# -->
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
         </tbody>
     </table>
 </body>

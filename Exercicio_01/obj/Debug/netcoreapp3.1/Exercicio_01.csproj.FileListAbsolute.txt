@@ -110,3 +110,6 @@ C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\bin\Debu
 C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\obj\Debug\netcoreapp3.1\Razor\Views\Guests\Index.cshtml.g.cs
 C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\obj\Debug\netcoreapp3.1\Razor\Views\Guests\Create.cshtml.g.cs
+C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\obj\Debug\netcoreapp3.1\Razor\Views\Guests\Details.cshtml.g.cs
+C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\obj\Debug\netcoreapp3.1\Razor\Views\Guests\Edit.cshtml.g.cs
+C:\Users\Usuario\Desktop\Programação\C#\MVC\Exercicio_01\Exercicio_01\obj\Debug\netcoreapp3.1\Razor\Views\Guests\Delete.cshtml.g.cs
