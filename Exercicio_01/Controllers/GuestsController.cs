@@ -12,42 +12,45 @@ namespace Exercicio_01.Controllers {
                 new Guest()
                 {
                     Id = 1,
-                    Nome = "Notebooks",
-                    Email = "Teste",
-                    Telefone = "teste"
+                    Nome = "João Marciano",
+                    Email = "joaomarciano@hotmail.com",
+                    Telefone = "1123252325",
+                    Comparecimento = true
                 },
 
                 new Guest()
                 {
                     Id = 2,
-                    Nome = "Monitores",
-                    Email = "Teste",
-                    Telefone = "teste"
+                    Nome = "José Carvalho",
+                    Email = "josecarvalho@gmail.com",
+                    Telefone = "1225325262",
+                    Comparecimento = false
                 },
 
                 new Guest()
                 {
                     Id = 3,
-                    Nome = "Impressoras",
-                    Email = "Teste",
-                    Telefone = "teste"
+                    Nome = "Maria Antonieta",
+                    Email = "mariaantonieta@bol.com.br",
+                    Telefone = "3132226523",
+                    Comparecimento = true
                 },
 
                 new Guest()
                 {
                     Id = 4,
-                    Nome = "Mouses",
-                    Email = "Teste",
-                    Telefone = "teste"
+                    Nome = "Carlos Cardoso",
+                    Email = "carloscardoso@yahoo.com.br",
+                    Telefone = "3432525268",
+                    Comparecimento = false
                 },
 
                 new Guest()
                 {
                     Id = 5,
-                    Nome = "Desktops",
-                    Email = "Teste",
-                    Telefone = "teste"
-
+                    Nome = "Joana Silva",
+                    Email = "joanasilva@outlook.com",
+                    Telefone = "2023523252"
                 }
         };
         public IActionResult Index() {

@@ -36,7 +36,9 @@
             </div>
             <div class="form-group">
                 <label asp-for="Comparecimento" class="control-label"></label>
-                <input asp-for="Comparecimento" class="form-control" />
+                <label>Yes</label><input asp-for="Comparecimento" class="form-control" type="radio" name="comparecimento" value="true" title="yes" />
+                <label>No</label><input asp-for="Comparecimento" class="form-control" type="radio" name="comparecimento" value="false" title="no" />
+                <!--<input asp-for="Comparecimento" class="form-control" />-->
                 <span asp-validation-for="Comparecimento" class="text-danger"></span>
             </div>
             <div class="form-group">
