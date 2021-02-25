@@ -9,6 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/site.css" />
     <title>Delete</title>
 </head>
 <body>
@@ -39,8 +40,19 @@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Comparecimento)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Comparecimento)
+        <dd class="col-sm-10">
+            @if (Model.Comparecimento == true)
+            {
+                <p>Yes</p>
+            }
+            else if (Model.Comparecimento == false)
+            {
+                <p>No</p>
+            }
+            else
+            {
+                <p>Not set</p>
+            }
         </dd>
     </dl>
     

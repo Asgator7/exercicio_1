@@ -9,6 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/site.css" />
     <title>Details</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 <div>
     <h4>Guest</h4>
     <hr />
-    <table>
+    <table class="table">
         <thead>
             <tr>
                 <td>@Html.DisplayNameFor(model => model.Nome)</td>
@@ -31,7 +32,20 @@
                 <td>@Html.DisplayFor(model => model.Nome)</td>
                 <td>@Html.DisplayFor(model => model.Email)</td>
                 <td>@Html.DisplayFor(model => model.Telefone)</td>
-                <td>@Html.DisplayFor(model => model.Comparecimento)</td>
+                <td>
+                    @if (Model.Comparecimento == true)
+                    {
+                        <p>Yes</p>
+                    }
+                    else if (Model.Comparecimento == false)
+                    {
+                        <p>No</p>
+                    }
+                    else
+                    {
+                        <p>Not set</p>
+                    }
+                </td>
             </tr>
         </tbody>
     </table>
